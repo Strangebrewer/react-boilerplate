@@ -14,7 +14,7 @@ export default {
       return API().put('/users', update);
    },
    updatePassword(update) {
-      return API().put('/users/password', update);
+      return API().put('/users/change-password', update);
    },
    deleteUser(id) {
       return API().delete(`/users/${id}`);

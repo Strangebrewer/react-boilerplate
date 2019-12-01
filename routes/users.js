@@ -11,7 +11,7 @@ router.post('/signup', UserController.signup);
 
 router.post('/login', UserController.login);
 
-router.put('/password', isAuthenticated, UserController.updatePassword);
+router.put('/change-password', isAuthenticated, UserController.updatePassword);
 
 router.delete('/:id', isAuthenticated, UserController.remove);
 
