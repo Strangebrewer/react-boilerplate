@@ -37,7 +37,6 @@ const Content = props => {
             <p>This is the current user:</p>
             <p>id: <code>{props.user._id}</code></p>
             <p>username: <code>{props.user.username}</code></p>
-            <p>email: <code>{props.user.email || "n/a"}</code></p>
          </Stripe>
       </Wrapper>
    )
@@ -53,7 +52,6 @@ const Wrapper = styled.div`
    text-align: center;
    width: 100%;
    em, strong, p {
-      word-wrap: break-word;
       color: ${props => props.theme.green};
    }
    h2, h3, h4, p {
@@ -79,7 +77,8 @@ const Stripe = styled.div`
    margin: 30px auto;
    height: 100px;
    :last-child {
-      height: 160px;
+      height: 140px;
+      margin-top: 10px;
    }
 `;
 
