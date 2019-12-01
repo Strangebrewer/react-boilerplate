@@ -1,0 +1,22 @@
+export const Themes = {
+   main: {
+      bg: '#282c34',
+      green: '#09d3ac',
+      pink: '#e83e8c',
+      primary: '#007bff',
+      danger: '#dc3545',
+      warning: '#ffc107',
+      success: '#28a745',
+      info: '#17a2b8',
+      grey1: '#f8f9fa',
+      grey1: '#f8f9fa',
+      grey2: '#e9ecef',
+      grey3: '#dee2e6',
+      grey4: '#ced4da',
+      grey5: '#adb5bd',
+      grey6: '#868e96',
+      grey7: '#495057',
+      grey8: '#343a40',
+      grey9: '#212529',
+   },
+}
