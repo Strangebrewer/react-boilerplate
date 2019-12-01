@@ -92,7 +92,7 @@ const Button5 = styled.button`
    }
 `;
 
-const Error = styled.p`
+const Error = styled.div`
    color: crimson;
    font-size: 12px;
    text-align: center;

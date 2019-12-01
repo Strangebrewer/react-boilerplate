@@ -51,7 +51,7 @@ class App extends React.Component {
                      <Route
                         exact
                         path="/content"
-                        component={Authentication(Content, { otherProps: "This sentence was passed as a prop", required: true })}
+                        component={Authentication(Content, { message: "This message was passed as a prop", required: true, user: this.props.user })}
                      />
 
                      <Route path="*" component={NoMatch} />
