@@ -2,7 +2,7 @@
 
    This is my boilerplate React app. It allows me to just dive in and start building a project without having to worry about all the things that don't change much from one app to the next, at least for me. And, having authentication already setup provides examples for all the main pieces of the app: routes, controllers, models and schemas on the back end and actions & mutations, api, pages and components on the front end.
    
-   To use this boilerplate as-is, you'll need a MongoDB Atlas account, and you'll need to add a .env file to fill in the details of the Mongo connection string in connection.js. And, of course, you'll have to `npm install` before you can start it up.   
+   To use this boilerplate as-is, you'll need a MongoDB Atlas account, and you'll need to add a `.env` file to fill in the details of the Mongo connection string in `connection.js`. And, of course, you'll have to `npm install` before you can start it up.   
    
 ## Tooling includes:
    - [Redux](https://www.npmjs.com/package/redux). Redux isn't always necessary, but I usually use it anyway because we use it at work and this helps me keep learning. I may make a boilerplate without Redux in the future.
