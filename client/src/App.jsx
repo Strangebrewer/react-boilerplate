@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { connect } from 'react-redux';
 
@@ -11,7 +11,7 @@ import NoMatch from './pages/NoMatch';
 
 import { getCurrentUser } from './redux/actions/auth_actions';
 
-class App extends React.Component {
+class App extends Component {
    state = {
       loading: true
    }
