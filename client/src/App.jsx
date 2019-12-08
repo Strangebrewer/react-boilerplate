@@ -51,7 +51,11 @@ class App extends Component {
                      <Route
                         exact
                         path="/content"
-                        component={Authentication(Content, { message: "This message was passed as a prop", required: true, user: this.props.user })}
+                        component={Authentication(Content, {
+                           message: "This message was passed as a prop",
+                           required: true,
+                           user: this.props.user
+                        })}
                      />
 
                      <Route path="*" component={NoMatch} />

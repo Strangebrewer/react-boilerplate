@@ -29,8 +29,8 @@ const Landing = props => {
                ) : (
                   <>
                      <p>Who are you?</p>
-                     <Link to="/login"><Button4>'I would like to log in.'</Button4></Link>
-                     <Link to="/login"><Button4>'I would like to sign up.'</Button4></Link>
+                     <Button4><Link to="/login">'I would like to log in.'</Link></Button4>
+                     <Button4><Link to="/login">'I would like to sign up.'</Link></Button4>
                   </>
                )
          }
@@ -83,7 +83,9 @@ const Button3 = styled.button`
 const Button4 = styled.button`
    background: ${props => props.theme.primary};
    border: none;
-   color: ${props => props.theme.warning};
+   a {
+      color: ${props => props.theme.warning};
+   }
    cursor: pointer;
    margin: 20px auto;
    :active {
